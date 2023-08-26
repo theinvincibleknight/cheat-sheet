@@ -116,12 +116,20 @@ Other ways to write list
 
 > **TODO**: Create an H1
 
+## 11. Blockquote: Quote multiple lines
+
+<blockquote>
+This is one paragraph.
+
+This is another paragraph.
+</blockquote>
+
 <!--
     Example
     > # H1 Quote
 -->
 
-## 11. Tables:
+## 12. Tables:
 
 | Header 1 | Header 2 | Header 3 |
 | -------- | -------- | ---------|
@@ -135,7 +143,7 @@ Other ways to write list
 | -------- | :-------: | ---------:|
 | Aligned Left | Aligned Center | Aligned Right |
 
-## 12. Custom HTML:
+## 13. Custom HTML:
 
 <h2>Heading</h2>
 <p>This is paragraph</p>
