@@ -93,9 +93,13 @@ passwd <username>
 ```bash
 sudo adduser <username>
 ```
-- `userdel`: Deletes a user.
+- `userdel` / `deluser`: Deletes a user.
 ```bash
 sudo userdel <username>
+```
+- If you prefer to use `userdel`, you can use the `-r` option to remove the home directory as well:
+```bash
+sudo userdel -r <username>
 ```
 - `groupadd`: Adds a new group.
 ```bash
